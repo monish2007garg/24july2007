@@ -4,24 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body>
-    <table border=1" cellspacing="0">
+    <table border=2" cellspacing="0">
         <thead>
             <tr>
                 <th>company</th>
                 <th>contact</th>
                 <th>country</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
+            <tr>
                 <td>Monish.co.in</td>
                 <td>Monish</td>
                 <td>India</td>
+                <td >
+                    <button class="btn btn-success btn-sm">View</button>
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                    <button onclick="console.log(`HIRAL`)" class="btn btn-danger btn-sm">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Monish.co.in</td>
+                <td>Hiral</td>
+                <td>India</td>
+                <td >
+                    <button class="btn btn-success btn-sm">View</button>
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                    <button onclick="console.log(`MONISH`)" class="btn btn-danger btn-sm">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Monish.co.in</td>
+                <td>Sunil</td>
+                <td>India</td>
+                <td >
+                    <button class="btn btn-success btn-sm">View</button>
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                    <button class="btn btn-danger btn-sm" onclick="alert('Good Morning');">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Monish.co.in</td>
+                <td>Virat</td>
+                <td>India</td>
+                <td >
+                    <button class="btn btn-success btn-sm">View</button>
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Monish.co.in</td>
+                <td>Anushka</td>
+                <td>India</td>
+                <td >
+                    <button class="btn btn-success btn-sm">View</button>
+                    <button class="btn btn-primary btn-sm ">Edit</button>
+                    <button class="btn btn-danger btn-sm" onclick="console.log('Hello')">Delete</button>
+                </td>
+            </tr>
+            
         </tbody>
         <tfoot>
-            
+            <tr>
+                <th>company</th>
+                <th>contact</th>
+                <th>country</th>
+            </tr>
         </tfoot>
     </table>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
 </body>
 </html>
